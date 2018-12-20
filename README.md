@@ -1,6 +1,6 @@
 # PyTorch Flower Image Classifier
 
-*** Command Line Application ***
+# *** Command Line Application ***
 
 * Training a network:	train.py successfully trains a new network on a dataset of images
 * Training validation log:	The training loss, validation loss, and validation accuracy are printed out as a network trains
@@ -12,7 +12,7 @@
 * Displaying class names:	The predict.py script allows users to load a JSON file that maps the class values to other category names
 * Predicting with GPU:	The predict.py script allows users to use the GPU to calculate the predictions
 
-*** Development Steps ***
+# *** Development Steps ***
 
 1) Package Imports:	All the necessary packages and modules are imported
 2) Training data augmentation:	torchvision transforms are used to augment the training data with random scaling, rotations, mirroring, and/or cropping
