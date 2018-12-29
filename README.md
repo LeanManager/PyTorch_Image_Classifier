@@ -30,4 +30,4 @@
 14) Class Prediction:	The predict function successfully takes the path to an image and a checkpoint, then returns the top K most probably classes for that image
 15) Sanity Checking with matplotlib:	A matplotlib figure is created displaying an image and its associated top 5 most probable classes with actual flower names
 
-
+## If workspace_utils.py is producing errors, simply do not use that module. In the train_classifier method, remove 'with active_session():' and un-ident the code inside it.
